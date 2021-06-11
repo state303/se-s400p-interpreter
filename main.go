@@ -21,14 +21,14 @@ var destinations = [][]string{DestCho, DestJoong, DestJong}
 
 func main() {
 
-	fmt.Println("\n정보를 입력합니다")
+	fmt.Println("\n정보 입력으 시작합니다.")
 
 	scanner := bufio.NewScanner(os.Stdin)
 
 	res := "\n===== 다음과 같이 동작해주세요 =====\n\n" +
 		"1. PGM 키를 모드 스위치에 꼽고 모드를 PGM 으로 할당하세요\n" +
-		"2. 아래에 맞추어 버튼을 입력하세요.\n(5, 6번 라인은 공백일 경우엔 무시됩니다.)\n\n" +
-		"2 - 소계 (화면 좌측에 PGM2가 나타난다)\n"
+		"2. 아래에 맞추어 버튼을 입력하세요.\n(5, 6번째 줄은 공백일 경우 무시됩니다.)\n\n" +
+		"2 - 소계 (화면 좌측에 PGM2가 나타납니다.)\n"
 
 	for i := 1; i < 7; i++ {
 		fmt.Printf("%d번째 줄 입력: ", i)
