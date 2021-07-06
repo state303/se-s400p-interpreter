@@ -21,7 +21,7 @@ var destinations = [][]string{DestCho, DestJoong, DestJong}
 
 func main() {
 
-	fmt.Println("\n정보 입력으 시작합니다.")
+	fmt.Println("\n정보 입력을 시작합니다.")
 
 	scanner := bufio.NewScanner(os.Stdin)
 
